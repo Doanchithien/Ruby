@@ -1,0 +1,25 @@
+arr = []
+puts "nhap -1 de dung nhap!"
+while arr.length <= 99 do
+    begin
+        puts "nhap vao so nguyen :"
+        x = Integer(gets)
+        if x >= 0
+            arr.push(x)
+        elsif x==-1
+            break
+        end
+    rescue
+        puts "Nhap khong hop le,vui long nhap lai....."
+        retry
+      end
+end
+puts "mang da nhap la : #{arr}"
+min=arr[0]
+arr.each do |i|
+    if i < min
+        min=i
+    end
+end
+
+puts "phan tu nho nhat trong mang la : #{min}"
