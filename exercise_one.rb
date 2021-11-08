@@ -8,6 +8,8 @@ while arr.length <= 99 do
             arr.push(x)
         elsif x==-1
             break
+        else
+            puts "vui long nhap so tu nhien..."
         end
     rescue
         puts "Nhap khong hop le,vui long nhap lai....."
