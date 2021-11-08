@@ -19,9 +19,7 @@ end
 puts "mang da nhap la : #{arr}"
 min=arr[0]
 arr.each do |i|
-    if i < min
-        min=i
-    end
+    min=i if i<min
 end
 
 puts "phan tu nho nhat trong mang la : #{min}"
