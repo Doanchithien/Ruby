@@ -14,13 +14,15 @@ until check_num(capacity_array)
     capacity_array = gets
 end
 
-arrays = Array.new(capacity_array.to_i) { |i| i = rand(1..9)}
+n = capacity_array.to_i
+
+arrays = Array.new(n) { |i| i = rand(1..9)}
 
 print "mang random la : #{arrays}\n"
 
 left = 0
 level = 1
-n = capacity_array.to_i - 1
+n = n - 1
 
 for i in 0..n
     if i==n
