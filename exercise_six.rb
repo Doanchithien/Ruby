@@ -1,5 +1,5 @@
-target_sum = 1
-arrays =  [3, 5,-4,8,11,1,-1,6]
+target_sum = 10
+arrays =  [3,5,-4,8,11,1,-1,6]
 n = arrays.length 
 hashes = {}
 two_nums = []
