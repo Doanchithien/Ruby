@@ -2,7 +2,7 @@ require 'csv'
 profile= "Like TV 100\", Some special charactor: \\ / ' $ ~ & @ # ( ; \""
 
 
-CSV.open('abc.csv','wb') do |csv|
+CSV.open('info.csv','wb') do |csv|
     csv << ['name','email','phone','address','day_of_birth','profile']
     for i in 1..500000
         email = "nguyenvana#{i}@gmail.com"
