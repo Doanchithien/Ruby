@@ -35,3 +35,11 @@ for i in 0..n
       end
     end
 end
+
+# Chương trình e viết ok, dễ hiểu. Code chạy đúng output
+# Tuy nhiên a có vài góp ý nhỏ cho e:
+# 1. Hàm check_sum nếu ngoài begin rescue end, em không xử lý gì thêm -> e có thể bỏ begin end luôn.
+# 2. Tên biến e nên đặt cho khi nhìn vào, e biết được mục đích thông qua cách đặt tên biến của e
+# 3. Em có thể tách ra hàm nhỏ để xử lý. Vd: vòng for của e có thể cho vào 1 hàm, input của e là 1 mảng (a vd như vậy). Làm sau để nội dung chính
+# c
+# 4. Giữa i==n e nên thêm dấu cách i == n
