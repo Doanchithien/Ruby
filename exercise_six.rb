@@ -1,7 +1,7 @@
 def two_num(arrays,target_sum)
   number_hashes = {}
 
-  for i in 0...arrays.length 
+   for i in 0...arrays.length 
      number = arrays[i].to_i
      number_check = target_sum - number
      if number_hashes.has_key?(number_check)
