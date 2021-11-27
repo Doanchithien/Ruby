@@ -8,11 +8,7 @@ def child_array?(arrays_one,arrays_two)
             check_arrays.pop() unless check_arrays == arrays_two[0...check_arrays.length]
         end
     end
-    if check_arrays == arrays_two
-        true
-    else
-        false
-    end
+    check_arrays == arrays_two
 end
 
 
