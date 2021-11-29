@@ -7,6 +7,7 @@ def two_num(arrays,target_sum)
        number_check = target_sum - number
        if number_hashes.has_key?(number_check)
            result = [number_check,number]
+           break
        else
           number_hashes[number] = i
        end
