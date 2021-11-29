@@ -13,7 +13,7 @@ end
 
 
 if __FILE__ == $0
-    arrays_one = [1,5,22,-1,1,8,26,6,-1,1,8,1,10,9,10]
+    arrays_one = [1,5,22,-1,1,8,9,26,6,-1,1,8,1,10,9,10]
     arrays_two = [1,6,-1,8,1,9,10]
     print "Mang b la mang con cua a? : #{child_array?(arrays_one,arrays_two)}\n"
 end
