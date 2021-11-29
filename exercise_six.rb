@@ -12,8 +12,7 @@ def two_num(arrays,target_sum)
           number_hashes[number] = i
        end
     end
-    result
-     
+    result    
 end
   
   
