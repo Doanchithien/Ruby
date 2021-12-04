@@ -16,3 +16,6 @@ if __FILE__ == $0
     arrays_two = [1,6,-1,8,1,9,10]
     print "Mang b la mang con cua a? : #{child_array?(arrays_one,arrays_two)}\n"
 end
+
+# Code e viết tốt, sử dụng hashes để check thay vì include? là một điểm cộng
+# E có thể optimize hơn nữa là khi check tới phần tử nào đó nó kg thỏa mãn đk thì e có thể return false liền mà kg cần duyệt hết mảng nhé
