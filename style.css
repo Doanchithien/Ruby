@@ -1,0 +1,22 @@
+.image{
+    transition: transform .2s;
+}
+.image:hover{
+    transform: scale(1.02);
+}
+.center {
+    text-align: center;
+  }
+.form-select{
+margin-bottom: 20px;
+width: 300px;
+}
+.text{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-left: 180px;
+}
+.icon{
+    margin:10px;
+}
