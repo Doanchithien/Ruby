@@ -4,9 +4,10 @@ end
 
 def three_nums(arrays,target_sum)
     result = []
-    #sort configs
+    #sort configs and compare with target sum
     arrays.each do |a|
         unless a[0] == a[1] || a[0] == a[2] || a[1] == a[2]
+          if sum(a) == target_sum  
             if a[0] > a[1] && a[0] > a[2]
                 if a[1] > a[2]
                     result.push([a[2],a[1],a[0]])
@@ -26,11 +27,15 @@ def three_nums(arrays,target_sum)
                     result.push([a[0],a[1],a[2]])
                 end
             end
+          end
         end
     end
-    #remove duplicate configs and compare with target sum
-    result.uniq.each do |i|
-        print "#{i}\n" if sum(i) == target_sum
+    #remove duplicate configs 
+    result = result.uniq
+    unless result.empty?
+         print result
+    else
+        print []
     end
 end
 
